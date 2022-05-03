@@ -1,15 +1,27 @@
 body{
-    margin: 0%;
-    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    margin: auto;
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%) no-repeat fixed;
     font-family: 'Inter', sans-serif;
     letter-spacing: 0.03em;
-    overflow: hidden
+    overflow: hidden;
+    background-size: cover;
+    text-align: center;
 }
 
 #inputSection {
-    text-align: center;
     color: #FFF;
     height: 200px;
+}
+
+#input{
+    width: 100%;
+    color: #FFF;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 100px;
+    font-weight: 800;
+    text-align: center;
 }
 
 ::placeholder{
@@ -30,20 +42,34 @@ input[type=number] {
 
 #outputSection {
     padding-top: 2%;
-    text-align: center;
     color: #FFF;
     background-color: #1F2937;
-    height: 500px;
+    height:500px;
 }
 
-#input{
-    width: 100%;
-    color: #FFF;
-    background: transparent;
-    border: none;
-    outline: none;
-    text-align: center;
-    font-size: 100px;
-    font-weight: 800;
-}
+@media (max-width: 480px){
+    #inputSection {
+        color: #FFF;
+        height: 135px;
+    }
 
+    #input{
+        width: 75vw;
+        color: #FFF;
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 60px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    #outputSection {
+        padding-top: 0.5%;
+        color: #FFF;
+        background-color: #1F2937;
+        height: 100vh;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
