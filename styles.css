@@ -1,0 +1,50 @@
+body{
+    margin: 0%;
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.03em;
+    overflow: hidden
+}
+
+#inputSection {
+    text-align: center;
+    color: #FFF;
+    height: 200px;
+}
+
+::placeholder{
+    color: white;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#outputSection {
+    padding-top: 5%;
+    text-align: center;
+    color: #FFF;
+    background-color: #1F2937;
+    height: 400px;
+    
+}
+
+#input{
+    width: 100%;
+    color: #FFF;
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 800;
+}
+
