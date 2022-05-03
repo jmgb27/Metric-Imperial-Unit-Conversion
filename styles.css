@@ -29,12 +29,11 @@ input[type=number] {
 }
 
 #outputSection {
-    padding-top: 5%;
+    padding-top: 2%;
     text-align: center;
     color: #FFF;
     background-color: #1F2937;
-    height: 400px;
-    
+    height: 500px;
 }
 
 #input{
